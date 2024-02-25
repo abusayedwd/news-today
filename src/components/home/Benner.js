@@ -67,7 +67,7 @@ const Bennerpage = () => {
           </p>
         </div>
 
-        <div className="absolute md:flex items-center bg-white w-[90%] md:h-32 md:-bottom-12 -bottom-64 shadow-2xl">
+        <div className="absolute md:flex items-center bg-white w-[90%] md:h-32 md:-bottom-20 -bottom-72 shadow-2xl">
           <div className="md:flex items-center gap-2 mt-2 pl-4">
             <div>
               <Image

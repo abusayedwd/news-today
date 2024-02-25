@@ -34,7 +34,7 @@ const TrendingPostpage = () => {
    const [tred, setTred] = useState([])
     
    return (
-      <div className='mt-32 w-[90%] mx-auto'>
+      <div className='md:mt-32 mt-80 w-[90%] mx-auto'>
          <div className='flex items-center gap-2 mb-2'>
          <FaAlignJustify/>
          <h1 className='text-2xl font-bold'>Trending Post</h1>

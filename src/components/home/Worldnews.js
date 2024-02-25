@@ -28,9 +28,9 @@ const WorldnewsPage = () => {
       <div className=' w-[90%] mx-auto mt-12'>
          <h1 className='text-xl font-semibold border-l-4 border-blue-400'>World News</h1>
         <div className='md:flex gap-4'>
-               <div className='md:w-[70%] w-[50%]'>
+               <div className='md:w-[70%] w-[100%]'>
                   <div className='flex gap-2'>
-            <div className='md:w-[60%] w-[50%]'>
+            <div className='md:w-[60%] w-[100%]'>
            <div className=" shadow-lg font-sans rounded-xl space-y-6 h-full bg-white">
           <div className="flex justify-center w-full h-80 lg:h-[280px] relative"> 
               <Image height={200} width={480} className="rounded-lg bg-black/40  " src= "https://images.unsplash.com/photo-1590092518493-4b82732e1279?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
@@ -46,7 +46,7 @@ const WorldnewsPage = () => {
           
       </div>
                       </div>
-                      <div className='md:w-[40%] w-[50%]'>
+                      <div className='md:w-[40%] w-[100%]'>
          <div className=" shadow-lg font-sans rounded-xl h-60 bg-white">
           <div className="w-full h-72 lg:h-[280px]"> 
               <Image height={100} width={480} className="rounded-lg h-40 bg-black/40 " src= "https://images.unsplash.com/photo-1542062700-9b61ccbc1696?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
@@ -78,10 +78,10 @@ const WorldnewsPage = () => {
 
 
             <div className='md:flex items-center mt-5 gap-3 bg-white shadow-2xl p-3'>
-                  <div className=' md:w-[30%]'>
+                  <div className=' md:w-[30%] w-full'>
                      <Image width={350} height={100} className=' h-40' alt='' src="https://images.unsplash.com/photo-1547316020-8365dfabe141?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                   </div>
-                  <div className='md:w-[70%]'>
+                  <div className='md:w-[70%] w-full'>
                   <p className=' bg-red-500 w-12 text-white px-1 text-xs'>Finance</p>
                   <h1 className='text-xl'>Wall Street Ends Down This Weekend, Snaps Weekly Winning Streak</h1>
                   <small className=' text-xs'>Jan 11, 20208 Mins Read54 Views</small>
@@ -90,10 +90,10 @@ const WorldnewsPage = () => {
             </div>
             <div className='md:flex items-center mt-5 gap-3 bg-white shadow-2xl p-3'>
 
-                  <div className=' md:w-[30%]'>
+                  <div className=' md:w-[30%] w-full'>
                      <Image width={350} height={100} className=' h-40' alt='' src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                   </div>
-                  <div className='md:w-[70%]'>
+                  <div className='md:w-[70%] w-full'>
                   <p className=' bg-red-500 w-12 text-white px-1 text-xs'>Politics</p>
                   <h1 className='text-xl'>Digging Up Old Graves to Make Room for Newly Fallen Soldiers</h1>
                   <small className=' text-xs'>Jan 11, 20208 Mins Read58 Views</small>
@@ -101,10 +101,10 @@ const WorldnewsPage = () => {
                   </div>
             </div>
             <div className='md:flex items-center mt-5 gap-3 bg-white shadow-2xl p-3'>
-                  <div className=' md:w-[30%]'>
+                  <div className=' md:w-[30%] w-full'>
                      <Image width={350} height={100} className=' h-40' alt='' src="https://images.unsplash.com/photo-1518316847866-651fbb917956?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
                   </div>
-                  <div className='md:w-[70%]'>
+                  <div className='md:w-[70%] w-full'>
                   <p className=' bg-red-500 w-12 text-white px-1 text-xs'>World</p>
                   <h1 className='text-xl'>The New CEO Stresses Commitment to Free Speech in First Speech</h1>
                   <small className=' text-xs'>Jan 11, 20208 Mins Read54 Views</small>
@@ -114,7 +114,7 @@ const WorldnewsPage = () => {
 
                </div>
 
-               <div className='md:w-[30%] w-[50%]'>
+               <div className='md:w-[30%] w-[100%]'>
                   <h1 className=' bg-black text-xl p-2 text-white font-bold'>Feature Post</h1>
                   <Swiper
         spaceBetween={30}
@@ -181,7 +181,7 @@ const WorldnewsPage = () => {
       <h1 className=' bg-black text-xl p-2 text-white font-bold'>Don't Miss</h1>
          <div className='md:flex items-center gap-4 mt-6 shadow-md'>
             <div>
-               <Image height={100} width={150} className=' rounded-lg' alt='' src="https://images.unsplash.com/photo-1623039405147-547794f92e9e?q=80&w=1726&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+               <Image height={100} width={150} className='md:w-40 w-full rounded-lg' alt='' src="https://images.unsplash.com/photo-1623039405147-547794f92e9e?q=80&w=1726&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div>
                <p>What Happened to the Apple Watch Being About Fashion?</p>
@@ -190,7 +190,7 @@ const WorldnewsPage = () => {
          <hr className=' mt-2 text-blue-700' />
          <div className='md:flex items-center gap-4 mt-6 shadow-md'>
             <div>
-               <Image height={100} width={150} className=' rounded-lg' alt='' src="https://images.unsplash.com/photo-1615893208238-ead83e5a2b3b?q=80&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+               <Image height={100} width={150} className='md:w-40 w-full  rounded-lg' alt='' src="https://images.unsplash.com/photo-1615893208238-ead83e5a2b3b?q=80&w=1665&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div>
                <p>25 Incredible Experiences You Can Only Have in Sea on a Small Ship</p>
@@ -199,7 +199,7 @@ const WorldnewsPage = () => {
          <hr className=' mt-2 text-blue-700' />
          <div className='md:flex items-center gap-4 mt-6 shadow-md'>
             <div>
-               <Image height={130} width={150} className=' rounded-lg' alt='' src="https://images.unsplash.com/photo-1589932896376-5244c8898269?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+               <Image height={130} width={150} className='md:w-40 w-full  rounded-lg' alt='' src="https://images.unsplash.com/photo-1589932896376-5244c8898269?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div>
                <p>2Greece & Austria Join the Ranks of Top 10 International Tourist</p>
@@ -208,7 +208,7 @@ const WorldnewsPage = () => {
          <hr className=' mt-2 text-blue-700' />
          <div className='md:flex items-center gap-4 mt-6 shadow-md'>
             <div>
-               <Image height={100} width={150} className=' rounded-lg' alt='' src="https://images.unsplash.com/photo-1510379475279-d53bd0a42636?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+               <Image height={100} width={150} className='md:w-40 w-full  rounded-lg' alt='' src="https://images.unsplash.com/photo-1510379475279-d53bd0a42636?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
             </div>
             <div>
                <p>Singapore Tourism Board Appoints New Regional Director Europe</p>

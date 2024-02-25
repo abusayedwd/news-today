@@ -14,6 +14,7 @@ export default function Home() {
        <Bennerpage></Bennerpage>
       <TrendingPostpage></TrendingPostpage>
       <WorldnewsPage></WorldnewsPage>
+      <FooterPage></FooterPage>
 
     </div>
   );
