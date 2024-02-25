@@ -41,7 +41,7 @@ const TrendingPostpage = () => {
          </div>
         <div className='grid md:grid-cols-4 gap-4'>
         {
-            trending.map((tred, indx) => <div key={indx}>
+            trending?.map((tred, indx) => <div key={indx}>
                 <div className=" shadow-lg max-w-[350px] font-sans rounded-xl space-y-6 h-88 mx-auto bg-white">
           <div className="flex justify-center w-full h-80 lg:h-[280px] relative"> 
               <Image height={200} width={350} className="rounded-lg bg-black/40  " src={tred.img} alt="img" />

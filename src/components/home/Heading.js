@@ -17,7 +17,7 @@ const HeadingPage = () => {
 
       <p className="text-slate-200"> <span className="bg-gray-600 p-2 text-blue-400 font-semibold rounded-2xl">FASHION NEWS:</span> BTRC allows mobile operators to offer wireless broadband.</p>
 
-      <p className="text-slate-200"> <span className="bg-gray-600 p-2 text-blue-400 font-semibold rounded-2xl">SPORTS NEWS:</span> Ireland 'fought' to get bonus point score - Farrell.</p>
+      <p className="text-slate-200"> <span className="bg-gray-600 p-2 text-blue-400 font-semibold rounded-2xl">SPORTS NEWS:</span> Ireland fought to get bonus point score - Farrell.</p>
   </Marquee>
          </div>
       </div>
