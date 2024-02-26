@@ -29,10 +29,10 @@ const WorldnewsPage = () => {
       </h1>
       <div className="md:flex gap-4">
         <div className="md:w-[70%] w-[100%]">
-          <div className="flex gap-2">
-            <div className="md:w-[60%] w-[100%]">
+          <div className="grid md:grid-cols-2 gap-2">
+            <div className=" ">
               <div className=" shadow-lg font-sans rounded-xl space-y-6 h-full bg-white">
-                <div className="flex justify-center w-full h-80 lg:h-[280px] relative">
+                <div className="w-full md:h-80 lg:h-[280px] relative">
                   <Image
                     height={200}
                     width={480}
@@ -62,9 +62,9 @@ const WorldnewsPage = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-[40%] w-[100%]">
+            <div className="md:w-[100%] w-[100%]">
               <div className=" shadow-lg font-sans rounded-xl h-60 bg-white">
-                <div className="w-full h-72 lg:h-[280px]">
+                <div className="w-full md:h-72 lg:h-[280px]">
                   <Image
                     height={100}
                     width={480}
@@ -81,7 +81,7 @@ const WorldnewsPage = () => {
                 </div>
               </div>
               <div className=" shadow-lg font-sans rounded-xl h-60 mt-3 bg-white">
-                <div className="w-full h-80 lg:h-[280px] relative">
+                <div className="w-full md:h-80 lg:h-[280px] relative">
                   <Image
                     height={200}
                     width={480}
