@@ -1,4 +1,5 @@
 import Bennerpage from "@/components/home/Benner";
+import FashiontredPage from "@/components/home/Fashiontred";
 import FooterPage from "@/components/home/Footer";
 import HeadingPage from "@/components/home/Heading";
 import Navbarpage from "@/components/home/Navbar";
@@ -14,6 +15,7 @@ export default function Home() {
        <Bennerpage></Bennerpage>
       <TrendingPostpage></TrendingPostpage>
       <WorldnewsPage></WorldnewsPage>
+      <FashiontredPage></FashiontredPage>
       <FooterPage></FooterPage>
 
     </div>

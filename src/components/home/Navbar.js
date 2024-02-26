@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import { useEffect, useState, useRef } from 'react';
 
 const Navbarpage = () => {
@@ -25,17 +26,23 @@ const Navbarpage = () => {
           <h2>NEWS TODAY</h2>
         </div>
         <ul className="hidden items-center justify-between gap-10 md:flex">
+          <Link href= "/">
+
           <li className="group flex  cursor-pointer flex-col">
             Home<span className="mt-[2px] h-[3px] w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
+          </Link>
+          <Link href="/worldnews">
+
           <li className="group flex  cursor-pointer flex-col">
-            Services<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+             World News<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+          </li>
+          </Link>
+          <li className="group flex  cursor-pointer flex-col">
+            Features<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="group flex  cursor-pointer flex-col">
-            About<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
-          </li>
-          <li className="group flex  cursor-pointer flex-col">
-            Contact<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+            Technology<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
         </ul>
         <div ref={dropDownMenuRef} onClick={() => setDropDownState(!dropDownState)} className="relative flex transition-transform md:hidden">
@@ -46,13 +53,13 @@ const Navbarpage = () => {
                 Home
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                Services
+                World News
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                About
+                Feature
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
-                Contact
+                Technology
               </li>
 
             </ul>
