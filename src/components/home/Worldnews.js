@@ -299,7 +299,7 @@ const WorldnewsPage = () => {
 
           <div>
             <h1 className=" bg-black text-xl p-2 text-white font-bold">
-              Don't Miss
+              Dont Miss
             </h1>
             <div className="md:flex items-center gap-4 mt-6 shadow-md">
               <div>
