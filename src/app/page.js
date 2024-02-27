@@ -14,6 +14,7 @@ export default function Home() {
        <Navbarpage></Navbarpage>
        <HeadingPage></HeadingPage>
        <Bennerpage></Bennerpage>
+       
       <TrendingPostpage></TrendingPostpage>
       <WorldnewsPage></WorldnewsPage>
       <FashiontredPage></FashiontredPage>
