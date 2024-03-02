@@ -41,8 +41,7 @@ const Navbarpage = () => {
           <li className="group flex  cursor-pointer flex-col">
             Features<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
-          <Link href="/login">
-
+          <Link href="/login"> 
           <li className="group flex bg-orange-400 px-2 rounded-lg font-semibold  cursor-pointer flex-col">
             Login<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
@@ -55,16 +54,22 @@ const Navbarpage = () => {
               <li className="cursor-pointer  px-6 py-2 text-white rounded-t-lg hover:bg-sky-600 ">
                 Home
               </li>
+              <Link href="/worldnews">
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 World News
               </li>
+              </Link>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 Feature
               </li>
               <li className="cursor-pointer  px-6 py-2 text-white hover:bg-sky-600 ">
                 Technology
               </li>
-
+              <Link href="/login"> 
+          <li className="group flex bg-orange-400 px-2 rounded-lg font-semibold  cursor-pointer flex-col">
+            Login<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+          </li>
+          </Link>
             </ul>
           )}
         </div>
