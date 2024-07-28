@@ -9,7 +9,17 @@
    
 // };
 module.exports = 
-{ plugins: [ 
+{
+ 
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+      // other rules...
+    ],
+ 
+  plugins: [ 
   'postcss-import',
  'tailwindcss/nesting', 
  'tailwindcss',
