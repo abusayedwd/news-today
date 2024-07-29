@@ -1,11 +1,12 @@
 "use client"
 import Link from 'next/link';
 import { useEffect, useState, useRef } from 'react';
+// import { signOut } from 'next-auth/react';
 
 const Navbarpage = () => {
    const [dropDownState, setDropDownState] = useState(false);
     const dropDownMenuRef = useRef();
-
+ 
     useEffect(() => {
         const closeDropDown = (e) => {
             if (!dropDownMenuRef?.current?.contains(e?.target)) {
@@ -46,6 +47,9 @@ const Navbarpage = () => {
             Login<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
           </li>
           </Link>
+          <li  className="group flex bg-red-400 px-2 rounded-lg font-semibold  cursor-pointer flex-col">
+            LogOut<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+          </li>
         </ul>
         <div ref={dropDownMenuRef} onClick={() => setDropDownState(!dropDownState)} className="relative flex transition-transform md:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cursor-pointer" > <line x1="4" x2="20" y1="12" y2="12" /> <line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /> </svg>
@@ -68,8 +72,11 @@ const Navbarpage = () => {
               <Link href="/login"> 
           <li className="group flex bg-orange-400 px-2 rounded-lg font-semibold  cursor-pointer flex-col">
             Login<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
-          </li>
+          </li> 
           </Link>
+          <li className="group flex bg-red-400 px-2 rounded-lg font-semibold  cursor-pointer flex-col">
+            LogOut<span className="mt-[2px] h-[3px]  w-[0px] rounded-full bg-sky-500 transition-all duration-300 group-hover:w-full"></span>
+          </li>
             </ul>
           )}
         </div>
