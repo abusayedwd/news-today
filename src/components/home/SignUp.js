@@ -46,7 +46,7 @@ const Signup = () => {
     })
     form.resetFields()
     setError('')
-     router.push('/')
+     router.push('/login')
   }
   else{
      console.log('Not register');
