@@ -12,6 +12,7 @@ const authOptions = {
             name: 'credentials',
             credentials: {},
             async authorize(credentials) {
+              const {email, password} = credentials;
              try{
                await mongoDb();
                const user = await User.findOne({email}) 
@@ -31,11 +32,11 @@ const authOptions = {
         })
     ],
     session: {
-   strategy: "jwt"
+   jwt: true,
     },
-    secret: process.env.AUTH_SECRET,
+    secret: process.env.NEXTAUTH_SECRET,
     pages: {
-      signIn:"/"
+      signIn: "/login"
     },
 }
 

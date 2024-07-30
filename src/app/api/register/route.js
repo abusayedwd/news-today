@@ -10,7 +10,7 @@ import User from "../../../../models/user";
 export async function POST(req, res) {
     try {
         const { name, email, password } = await req.json();
-        console.log('Name:', name, "Email:", email, "Password:", password);
+        // console.log('Name:', name, "Email:", email, "Password:", password);
         await mongoDb();
         const hasedPassword = await bcrypt.hash(password,10)
         await User.create({name, email, password:hasedPassword})
