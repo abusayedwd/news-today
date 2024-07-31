@@ -34,7 +34,7 @@ const authOptions = {
     session: {
    jwt: true,
     },
-    useSecureCookies: process.env.NODE_ENV === 'production',
+    // useSecureCookies: process.env.NODE_ENV === 'production',
     
 
     secret: process.env.NEXTAUTH_SECRET,
