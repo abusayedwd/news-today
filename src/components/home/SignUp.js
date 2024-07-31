@@ -24,7 +24,7 @@ const Signup = () => {
       },
       body: JSON.stringify({email}),
      });
-
+         console.log('exsist', existUser);
      const {user} = await existUser.json()
     if(user){
       setError('User alredy exisit!!')
@@ -35,7 +35,8 @@ const Signup = () => {
    const res = await fetch('api/register', {
     method:"POST",
     headers: {
-      'Content-Type': 'application/json'
+      'Content-Type': 'application/json',
+      
     },
     body:JSON.stringify(values)
    });

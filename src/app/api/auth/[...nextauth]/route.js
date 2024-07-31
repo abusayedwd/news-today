@@ -35,6 +35,7 @@ const authOptions = {
    jwt: true,
     },
     secret: process.env.NEXTAUTH_SECRET,
+    // URL : process.env.AUTH_URL,
     pages: {
       signIn: "/login"
     },
