@@ -39,6 +39,7 @@ const Signup = () => {
     },
     body:JSON.stringify(values)
    });
+   console.log("reeee>>>>>>>>>>",res);
    if(res.ok){
     notification.success({
       message:'success',
